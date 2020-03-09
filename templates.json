@@ -2,8 +2,6 @@
     "type": 1,
     "title": "webssh2",
     "description": "Web SSH Client using WebSSH2",
-    "categories": ["tools"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/webssh2.png",
     "image": "lihaixin/webssh2:latest",
     "ports": [
@@ -14,8 +12,6 @@
     "type": 1,
     "title": "tinyportmapper",
     "description": "TCP UDP端口转发",
-    "categories": ["tools"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/tinyportmapper.png",
     "image": "lihaixin/tinyportmapper:latest",
     "ports": [
@@ -27,8 +23,6 @@
     "type": 1,
     "title": "baidupcs",
     "description": "不限速百度云客户端",
-    "categories": ["file"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/baidupcs.png",
     "image": "lihaixin/baidupcs",
     "ports": [
@@ -53,8 +47,6 @@
     "type": 1,
     "title": "Brook Server",
     "description": "Brook is a cross-platform proxy software",
-    "categories": ["brook"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/brook.png",
     "image": "lihaixin/brook:latest",
     "ports": [
@@ -68,8 +60,6 @@
     "type": 1,
     "title": "Brook Client",
     "description": "Brook for Linux Client",
-    "categories": ["brook"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/brook.png",
     "image": "lihaixin/brook:client",
     "ports": [
@@ -81,8 +71,6 @@
     "type": 1,
     "title": "Brook Help",
     "description": "Brook Client software download and help",
-    "categories": ["brook"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/brook.png",
     "image": "lihaixin/brook:help",
     "ports": [
@@ -93,8 +81,6 @@
     "type": 1,
     "title": "SpeedTest",
     "description": "html5 web speedtest",
-    "categories": ["tools"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/speedtest.png",
     "image": "lihaixin/speedtest",
     "ports": [
@@ -105,8 +91,6 @@
     "type": 1,
     "title": "v2ray server",
     "description": "A Vee Network Solution server docker run -d --restart=always --name=59028.v2ray.server -p 59028:59028 -p 59028:59028/udp lihaixin/v2ray",
-    "categories": ["v2ray"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/v2ray.png",
     "image": "lihaixin/v2ray",
     "ports": [
@@ -119,8 +103,6 @@
     "type": 1,
     "title": "v2ray local",
     "description": "A Vee Network Solution fro linux client",
-    "categories": ["v2ray"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/v2ray.png",
     "image": "lihaixin/v2ray:L",
     "ports": [
@@ -134,8 +116,6 @@
     "type": 1,
     "title": "v2ray help",
     "description": "A Vee Network Solution for client down",
-    "categories": ["v2ray"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/v2ray.png",
     "image": "lihaixin/v2ray:help",
     "ports": [
@@ -146,8 +126,6 @@
     "type": 1,
     "title": "v2ray URL",
     "description": "v2ray and ss url ",
-    "categories": ["v2ray"],
-    "platform": "linux",
     "restart_policy": "always",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/v2ray.png",
     "image": "lihaixin/v2ray:url",
@@ -159,8 +137,6 @@
     "type": 1,
     "title": "v2ray kcp",
     "description": "v2ray use mkcp ",
-    "categories": ["v2ray"],
-    "platform": "linux",
     "restart_policy": "always",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/v2ray.png",
     "image": "lihaixin/v2ray:kcp",
@@ -173,8 +149,6 @@
     "type": 1,
     "title": "ylzq",
     "description": "earn money docker run --name=ylzq2_0 -d -e uid=38468 lihaixin/ylzq:v2.0",
-    "categories": ["money"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/ylzq.png",
     "image": "lihaixin/ylzq:v2.0",
     "restart_policy": "unless-stopped",
@@ -190,8 +164,6 @@
     "type": 1,
     "title": "softether",
     "description": "softether server",
-    "categories": ["vpn"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/softether.png",
     "image": "lihaixin/softether",
     "ports": [
@@ -210,8 +182,6 @@
     "type": 1,
     "title": "chromium",
     "description": "chromium browser",
-    "categories": ["browser"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/chromium.png",
     "image": "lihaixin/chromium:latest",
     "volumes": ["/root/Downloads"],
@@ -223,8 +193,6 @@
     "type": 1,
     "title": "shadowsocks Server limit",
     "description": "shadowsocks is a cross-platform proxy software",
-    "categories": ["shadowsocks"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/Shadowsocks.png",
     "image": "lihaixin/shadowsocks:limit",
     "ports": [
@@ -250,8 +218,6 @@
     "type": 1,
     "title": "shadowsocks Server ",
     "description": "shadowsocks is a cross-platform proxy software",
-    "categories": ["shadowsocks"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/Shadowsocks.png",
     "image": "lihaixin/shadowsocks:server",
     "ports": [
@@ -264,8 +230,6 @@
     "type": 1,
     "title": "shadowsocks Server and kcptun udpspeed and udp2raw",
     "description": "shadowsocks is a cross-platform proxy software and use kcptun",
-    "categories": ["shadowsocks"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/Shadowsocks.png",
     "image": "lihaixin/shadowsocks:udp",
     "ports": [
@@ -281,8 +245,6 @@
     "type": 1,
     "title": "shadowsocks Client",
     "description": "shadowsocks for Linux Client",
-    "categories": ["shadowsocks"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/Shadowsocks.png",
     "image": "lihaixin/shadowsocks:local",
     "ports": [
@@ -294,8 +256,6 @@
     "type": 1,
     "title": "shadowsocks Help",
     "description": "shadowsocks Client software download and help",
-    "categories": ["shadowsocks"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/Shadowsocks.png",
     "image": "lihaixin/shadowsocks:help",
     "ports": [
@@ -306,8 +266,6 @@
     "type": 1,
     "title": "MT proxy",
     "description": "Telegram Messenger MTProto zero-configuration proxy server",
-    "categories": ["proxy"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/mtproxy.png",
     "image": "telegrammessenger/proxy:latest",
     "ports": [
@@ -318,8 +276,6 @@
     "type": 1,
     "title": "trojan socks5 proxy",
     "description": "trojan socks5 proxy server",
-    "categories": ["proxy"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/trojan.png",
     "image": "lihaixin/trojan:server1.8.1",
     "ports": [
@@ -331,8 +287,6 @@
     "type": 1,
     "title": "trojan socks5 proxy",
     "description": "trojan socks5 proxy client",
-    "categories": ["proxy"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/trojan.png",
     "image": "lihaixin/trojan:client1.8.1",
     "ports": [
@@ -344,8 +298,6 @@
     "type": 1,
     "title": "h5ai",
     "description": "h5ai file indexer for HTTP web servers",
-    "categories": ["file"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/h5ai.png",
     "image": "lihaixin/h5ai",
     "ports": [
@@ -358,8 +310,6 @@
     "type": 1,
     "title": "h5ai auth",
     "description": "h5ai file indexer for HTTP web servers",
-    "categories": ["file"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/h5ai.png",
     "image": "lihaixin/h5ai:auth",
     "ports": [
@@ -384,8 +334,6 @@
     "type": 1,
     "title": "verysync",
     "description": "file sync uses verysync",
-    "categories": ["file"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/verysync.png",
     "image": "lihaixin/verysync",
     "ports": [
@@ -401,8 +349,6 @@
     "type": 1,
     "title": "transmission",
     "description": "bt transmissio web ui",
-    "categories": ["file"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/transmission.png",
     "image": "lihaixin/transmission",
     "ports": [
@@ -417,8 +363,6 @@
     "type": 1,
     "title": "pihole",
     "description": "DNS缓存和互联网广告黑洞",
-    "categories": ["tools"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/pihole.png",
     "image": "pihole/pihole:latest",
     "env": [
@@ -446,8 +390,6 @@
     "type": 1,
     "title": "frps",
     "description": "FRP内网穿透服务器",
-    "categories": ["tools"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/frp.png",
     "image": "lihaixin/frp:latest",
     "ports": [
@@ -468,8 +410,6 @@
     "type": 1,
     "title": "nps-docker",
     "description": "NPS内网穿透服务器",
-    "categories": ["tools"],
-    "platform": "linux",
     "logo": "https://raw.githubusercontent.com/lihaixin/dockerfile/master/logo/nps.png",
     "image": "lihaixin/nps-docker:latest",
     "ports": [
