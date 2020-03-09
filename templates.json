@@ -1,5 +1,5 @@
 [{
-    "type": "container",
+    "type": 1,
     "title": "webssh2",
     "description": "Web SSH Client using WebSSH2",
     "categories": ["tools"],
@@ -11,7 +11,7 @@
     ]
   },
  {
-    "type": "container",
+    "type": 1,
     "title": "tinyportmapper",
     "description": "TCP UDP端口转发",
     "categories": ["tools"],
@@ -24,7 +24,7 @@
     ]
   },
  {
-    "type": "container",
+    "type": 1,
     "title": "baidupcs",
     "description": "不限速百度云客户端",
     "categories": ["file"],
@@ -50,7 +50,7 @@
     "restart_policy": "always"
   },
   {
-    "type": "container",
+    "type": 1,
     "title": "Brook Server",
     "description": "Brook is a cross-platform proxy software",
     "categories": ["brook"],
@@ -65,7 +65,7 @@
     "restart_policy": "always"
   },
   {
-    "type": "container",
+    "type": 1,
     "title": "Brook Client",
     "description": "Brook for Linux Client",
     "categories": ["brook"],
@@ -78,7 +78,7 @@
     ]
   },
    {
-    "type": "container",
+    "type": 1,
     "title": "Brook Help",
     "description": "Brook Client software download and help",
     "categories": ["brook"],
@@ -90,7 +90,7 @@
     ]
   },
    {
-    "type": "container",
+    "type": 1,
     "title": "SpeedTest",
     "description": "html5 web speedtest",
     "categories": ["tools"],
@@ -102,7 +102,7 @@
     ]
   },
    {
-    "type": "container",
+    "type": 1,
     "title": "v2ray server",
     "description": "A Vee Network Solution server docker run -d --restart=always --name=59028.v2ray.server -p 59028:59028 -p 59028:59028/udp lihaixin/v2ray",
     "categories": ["v2ray"],
@@ -116,7 +116,7 @@
     "privileged": true
   },
    {
-    "type": "container",
+    "type": 1,
     "title": "v2ray local",
     "description": "A Vee Network Solution fro linux client",
     "categories": ["v2ray"],
@@ -131,7 +131,7 @@
     ]
   },
    {
-    "type": "container",
+    "type": 1,
     "title": "v2ray help",
     "description": "A Vee Network Solution for client down",
     "categories": ["v2ray"],
@@ -143,7 +143,7 @@
     ]
   },
    {
-    "type": "container",
+    "type": 1,
     "title": "v2ray URL",
     "description": "v2ray and ss url ",
     "categories": ["v2ray"],
@@ -156,7 +156,7 @@
     ]
   },
   {
-    "type": "container",
+    "type": 1,
     "title": "v2ray kcp",
     "description": "v2ray use mkcp ",
     "categories": ["v2ray"],
@@ -170,7 +170,7 @@
     ]
   },
    {
-    "type": "container",
+    "type": 1,
     "title": "ylzq",
     "description": "earn money docker run --name=ylzq2_0 -d -e uid=38468 lihaixin/ylzq:v2.0",
     "categories": ["money"],
@@ -187,7 +187,7 @@
   ]
   },
    {
-    "type": "container",
+    "type": 1,
     "title": "softether",
     "description": "softether server",
     "categories": ["vpn"],
@@ -207,7 +207,7 @@
     "restart_policy": "always"
   },
    {
-    "type": "container",
+    "type": 1,
     "title": "chromium",
     "description": "chromium browser",
     "categories": ["browser"],
@@ -220,7 +220,7 @@
     ]
   },
   {
-    "type": "container",
+    "type": 1,
     "title": "shadowsocks Server limit",
     "description": "shadowsocks is a cross-platform proxy software",
     "categories": ["shadowsocks"],
@@ -247,7 +247,7 @@
     "restart_policy": "always"
   },
  {
-    "type": "container",
+    "type": 1,
     "title": "shadowsocks Server ",
     "description": "shadowsocks is a cross-platform proxy software",
     "categories": ["shadowsocks"],
@@ -261,7 +261,7 @@
     "restart_policy": "always"
   },
   {
-    "type": "container",
+    "type": 1,
     "title": "shadowsocks Server and kcptun udpspeed and udp2raw",
     "description": "shadowsocks is a cross-platform proxy software and use kcptun",
     "categories": ["shadowsocks"],
@@ -278,7 +278,7 @@
      "restart_policy": "always"
   },
   {
-    "type": "container",
+    "type": 1,
     "title": "shadowsocks Client",
     "description": "shadowsocks for Linux Client",
     "categories": ["shadowsocks"],
@@ -291,7 +291,7 @@
     ]
   },
    {
-    "type": "container",
+    "type": 1,
     "title": "shadowsocks Help",
     "description": "shadowsocks Client software download and help",
     "categories": ["shadowsocks"],
@@ -303,7 +303,7 @@
     ]
   },
    {
-    "type": "container",
+    "type": 1,
     "title": "MT proxy",
     "description": "Telegram Messenger MTProto zero-configuration proxy server",
     "categories": ["proxy"],
@@ -315,7 +315,7 @@
     ]
   },
    {
-    "type": "container",
+    "type": 1,
     "title": "trojan socks5 proxy",
     "description": "trojan socks5 proxy server",
     "categories": ["proxy"],
@@ -328,7 +328,7 @@
     "restart_policy": "always"
   },
    {
-    "type": "container",
+    "type": 1,
     "title": "trojan socks5 proxy",
     "description": "trojan socks5 proxy client",
     "categories": ["proxy"],
@@ -341,7 +341,7 @@
     "restart_policy": "always"
   },
    {
-    "type": "container",
+    "type": 1,
     "title": "h5ai",
     "description": "h5ai file indexer for HTTP web servers",
     "categories": ["file"],
@@ -355,7 +355,7 @@
      "volumes": ["/share"]
   },
   {
-    "type": "container",
+    "type": 1,
     "title": "h5ai auth",
     "description": "h5ai file indexer for HTTP web servers",
     "categories": ["file"],
@@ -381,7 +381,7 @@
      "volumes": ["/share"]
   },
    {
-    "type": "container",
+    "type": 1,
     "title": "verysync",
     "description": "file sync uses verysync",
     "categories": ["file"],
@@ -398,7 +398,7 @@
     "volumes": ["/mnt", "/verysync"]
   },
    {
-    "type": "container",
+    "type": 1,
     "title": "transmission",
     "description": "bt transmissio web ui",
     "categories": ["file"],
@@ -414,7 +414,7 @@
     "volumes": ["/config", "/downloads","/watch"]
   },
    {
-    "type": "container",
+    "type": 1,
     "title": "pihole",
     "description": "DNS缓存和互联网广告黑洞",
     "categories": ["tools"],
@@ -443,7 +443,7 @@
     "volumes": ["/etc/pihole/","/etc/dnsmasq.d/"]
   },
   {
-    "type": "container",
+    "type": 1,
     "title": "frps",
     "description": "FRP内网穿透服务器",
     "categories": ["tools"],
@@ -465,7 +465,7 @@
     "restart_policy": "always"
   },
   {
-    "type": "container",
+    "type": 1,
     "title": "nps-docker",
     "description": "NPS内网穿透服务器",
     "categories": ["tools"],
